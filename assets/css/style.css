@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 300px;
+    width: 300px;
+   margin-bottom: 20px;
+   border: 1px solid white;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+.pink{
+    background-color: pink;
+}
+.brown{
+    background-color: brown;
+}
+.chocolate{
+    background-color: chocolate;
+}
