@@ -9,14 +9,17 @@ cl(closeTab);
 
 
 
+const addMovie = ((eve)=>{
 
+    backDrop.classList.add('active')
+    ourModel.classList.add('active')
+})
 
 
 const onAddMovieData = ((eve)=>{
     eve.preventDefault();
     cl('submit');
-    backDrop.classList.add('d-none')
-    ourModel.classList.add('d-none')
+    
 
 })
 
@@ -26,6 +29,5 @@ const onAddMovieData = ((eve)=>{
 
 
 
-
-
+addMovieBtn.addEventListener('click',addMovie)
 addMovieForm.addEventListener('submit',onAddMovieData)
